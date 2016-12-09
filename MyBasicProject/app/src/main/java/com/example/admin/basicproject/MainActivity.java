@@ -1,6 +1,7 @@
 package com.example.admin.basicproject;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,8 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
+
+import com.example.admin.basicproject.cache.ImageCacheActivity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -48,7 +51,9 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(mContext,"UI",Toast.LENGTH_LONG).show();
                         break;
                     case 1:
-                        Toast.makeText(mContext,"jar",Toast.LENGTH_LONG).show();
+
+                        Intent intent = new Intent(MainActivity.this, ImageCacheActivity.class);
+                        startActivity(intent);
                         break;
                     case 2:
                         Toast.makeText(mContext,"MVP",Toast.LENGTH_LONG).show();
