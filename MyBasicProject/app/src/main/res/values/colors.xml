@@ -3,4 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#8F8F8F</color>
+    <color name="tv_1">#EEDFCC</color>
+    <color name="tv_2">#D1EEEE</color>
+    <color name="tv_3">#CD853F</color>
+    <color name="tv_4">#C6E2FF</color>
+    <color name="tv_5">#C0FF3E</color>
+    <color name="tv_6">#00EE00</color>
+
+
 </resources>

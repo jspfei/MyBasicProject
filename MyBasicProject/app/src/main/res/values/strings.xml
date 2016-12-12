@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">MyStudyDemo</string>
     <string name="text">测试</string>
+    <string name="ui_list">UI_List</string>
+
+    <string-array name="ui_names">
+        <item>TextView</item>
+        <item>EditText</item>
+        <item>AutoCompleteTextView</item>
+        <item>Button</item>
+        <item>ImageButton</item>
+        <item>CheckBox</item>
+        <item>ToggleButton</item>
+        <item>RadioButton</item>
+        <item>RadioGroup</item>
+        <item>ProgressBar</item>
+        <item>Spinner</item>
+        <item>TimePicker</item>
+        <item>DatePicker</item>
+    </string-array>
 </resources>

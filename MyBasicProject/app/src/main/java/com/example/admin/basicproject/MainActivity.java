@@ -11,6 +11,7 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import com.example.admin.basicproject.cache.ImageCacheActivity;
+import com.example.admin.basicproject.ui.UIListManagerActivity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -48,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 switch (i){
                     case 0:
-                        Toast.makeText(mContext,"UI",Toast.LENGTH_LONG).show();
+                        Intent intent1 = new Intent(MainActivity.this, UIListManagerActivity.class);
+                        startActivity(intent1);
                         break;
                     case 1:
 
