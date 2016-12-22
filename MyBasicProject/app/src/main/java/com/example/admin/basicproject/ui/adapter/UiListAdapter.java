@@ -1,4 +1,4 @@
-package com.example.admin.basicproject.ui;
+package com.example.admin.basicproject.ui.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

@@ -2,6 +2,7 @@
     <string name="app_name">MyStudyDemo</string>
     <string name="text">测试</string>
     <string name="ui_list">UI_List</string>
+    <string name="animation_str">动画</string>
 
     <string-array name="ui_names">
         <item>TextView</item>
@@ -17,5 +18,7 @@
         <item>Spinner</item>
         <item>TimePicker</item>
         <item>DatePicker</item>
+        <item>DatePicker</item>
+        <item>动画</item>
     </string-array>
 </resources>

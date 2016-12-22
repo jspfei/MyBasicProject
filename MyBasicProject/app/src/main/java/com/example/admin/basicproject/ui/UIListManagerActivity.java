@@ -1,11 +1,14 @@
 package com.example.admin.basicproject.ui;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.admin.basicproject.R;
+import com.example.admin.basicproject.ui.activity.AnimationActivity;
+import com.example.admin.basicproject.ui.adapter.UiListAdapter;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +16,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnItemClick;
-import butterknife.OnItemSelected;
 
 public class UIListManagerActivity extends AppCompatActivity {
 
@@ -35,6 +37,10 @@ public class UIListManagerActivity extends AppCompatActivity {
       switch (i){
           case 0:
               Toast.makeText(this,"TextView",Toast.LENGTH_SHORT).show();
+              break;
+          case 14:
+              Intent intent = new Intent(this, AnimationActivity.class);
+              startActivity(intent);
               break;
           default:
               break;

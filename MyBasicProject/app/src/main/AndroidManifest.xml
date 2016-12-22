@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.admin.basicproject">
+
     <!-- 网络权限 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- 往sdcard中写入数据的权限 -->
@@ -11,7 +12,6 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -22,8 +22,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".cache.ImageCacheActivity" />
-        <activity android:name=".ui.UIListManagerActivity"
-            android:label="@string/ui_list"
+        <activity
+            android:name=".ui.UIListManagerActivity"
+            android:label="@string/ui_list" />
+        <activity android:name=".ui.activity.AnimationActivity"
+             android:label="@string/animation_str"
             ></activity>
     </application>
 
