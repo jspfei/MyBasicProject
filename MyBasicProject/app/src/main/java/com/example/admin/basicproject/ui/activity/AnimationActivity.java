@@ -52,4 +52,42 @@ public class AnimationActivity extends Activity {
     public void paowuxian(View view){
         AnimUtils.paowuxian(AnimationActivity.this,ball);
     }
+
+/*
+    名称
+            属性
+    备注
+    android:shareInterpolator
+            是否共享插入器
+    共享时，四个子节点都用一个插入器
+    android:interpolator
+            指定一个动画的插入器
+    使用系统资源
+    android:fillEnabled
+
+    当设置为true时，fillAfter和fill, Befroe将会都为true，此时会忽略fillBefore 和fillAfter两种属性
+    android:fillAfter
+            该动画转化是否在动画结束后被应用
+    boolean
+    android:fillBefore
+            该动画转化是否在动画开始前被应用
+    boolean
+    android:repeatMode
+            重复模式
+    "restart"  或者 "reverse"
+    android:repeatCount
+            重复次数
+    integer
+    android:duration
+            动画持续时间
+    integer
+    android:startOffset
+            动画时间间隔
+    long
+    android:zAdjustment
+    定义动画z order的变换
+    [normal] or [top] or [bottom]
+    android:detachWallpaper
+
+    boolean*/
 }
