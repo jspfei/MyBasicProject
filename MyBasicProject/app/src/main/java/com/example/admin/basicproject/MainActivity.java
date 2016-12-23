@@ -11,6 +11,7 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import com.example.admin.basicproject.cache.ImageCacheActivity;
+import com.example.admin.basicproject.special_effect.SpecialEffectActivity;
 import com.example.admin.basicproject.ui.UIListManagerActivity;
 
 import java.util.ArrayList;
@@ -19,8 +20,8 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
-    int[] mainImageIds = {R.drawable.icon_0,R.drawable.icon_1,R.drawable.icon_2};
-    String[] mainStrs = {"UI","Jar","MVP"};
+    int[] mainImageIds = {R.drawable.icon_0,R.drawable.icon_1,R.drawable.icon_2,R.drawable.icon_3};
+    String[] mainStrs = {"UI","Jar","MVP","特效"};
     private Context mContext;
 
     @Override
@@ -59,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 2:
                         Toast.makeText(mContext,"MVP",Toast.LENGTH_LONG).show();
+                        break;
+
+                    case 3:
+                        Intent intent2 = new Intent(MainActivity.this, SpecialEffectActivity.class);
+                        startActivity(intent2);
                         break;
 
                 }

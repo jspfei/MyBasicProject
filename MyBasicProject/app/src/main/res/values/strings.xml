@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">MyStudyDemo</string>
+
     <string name="text">测试</string>
     <string name="ui_list">UI_List</string>
     <string name="animation_str">动画</string>
+    <string name="app_name">个人测试</string>
+    <string name="special_effect">特例</string>
+    <string name="grag">拖拽</string>
 
     <string-array name="ui_names">
         <item>TextView</item>
@@ -20,5 +23,9 @@
         <item>DatePicker</item>
         <item>DatePicker</item>
         <item>动画</item>
+    </string-array>
+
+    <string-array name="special_effect">
+        <item>GridView实现拖拽</item>
     </string-array>
 </resources>

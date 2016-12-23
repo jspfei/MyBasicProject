@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/lv_special_effect_list"
+        android:layout_width="match_parent"
+        android:padding="@dimen/dp_10"
+        android:listSelector="@drawable/item_layout_bg1"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>
