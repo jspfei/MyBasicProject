@@ -6,6 +6,7 @@
     <string name="app_name">个人测试</string>
     <string name="special_effect">特例</string>
     <string name="grag">拖拽</string>
+    <string name="shared_preference_save">SaredPreference保存List数据</string>
 
     <string-array name="ui_names">
         <item>TextView</item>
@@ -28,4 +29,6 @@
     <string-array name="special_effect">
         <item>GridView实现拖拽</item>
     </string-array>
+    <string name="title_activity_data_save">数据存储</string>
+    <string name="shared_preference_list">SharedPreference保存数据</string>
 </resources>

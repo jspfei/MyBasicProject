@@ -11,17 +11,18 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import com.example.admin.basicproject.cache.ImageCacheActivity;
+import com.example.admin.basicproject.data_save.DataStorageActivity;
+import com.example.admin.basicproject.data_save.activity.SharedPreferencesActivity;
 import com.example.admin.basicproject.special_effect.SpecialEffectActivity;
 import com.example.admin.basicproject.ui.UIListManagerActivity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
-    int[] mainImageIds = {R.drawable.icon_0,R.drawable.icon_1,R.drawable.icon_2,R.drawable.icon_3};
-    String[] mainStrs = {"UI","Jar","MVP","特效"};
+    int[] mainImageIds = {R.drawable.icon_0,R.drawable.icon_1,R.drawable.icon_2,R.drawable.icon_3,R.drawable.icon_3};
+    String[] mainStrs = {"UI","Jar","MVP","特效","存储"};
     private Context mContext;
 
     @Override
@@ -65,6 +66,10 @@ public class MainActivity extends AppCompatActivity {
                     case 3:
                         Intent intent2 = new Intent(MainActivity.this, SpecialEffectActivity.class);
                         startActivity(intent2);
+                        break;
+                    case 4:
+                        Intent intent3 = new Intent(MainActivity.this,  DataStorageActivity.class);
+                        startActivity(intent3);
                         break;
 
                 }

@@ -31,10 +31,17 @@
             android:label="@string/animation_str" />
         <activity
             android:name=".special_effect.SpecialEffectActivity"
-            android:label="@string/special_effect"></activity>
-        <activity android:name=".special_effect.activity.GridDragActivity"
-            android:label="@string/grag"
-            ></activity>
+            android:label="@string/special_effect" />
+        <activity
+            android:name=".special_effect.activity.GridDragActivity"
+            android:label="@string/grag" />
+        <activity
+            android:name=".data_save.activity.SharedPreferencesActivity"
+            android:label="@string/shared_preference_save" />
+        <activity
+            android:name=".data_save.DataStorageActivity"
+            android:label="@string/title_activity_data_save"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

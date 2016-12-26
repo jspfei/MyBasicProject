@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shared_preferences"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.admin.basicproject.data_save.activity.SharedPreferencesActivity">
+    <Button
+        android:id="@+id/btn_addString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加List&lt;String>" />
+
+    <Button
+        android:id="@+id/btn_getString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取List&lt;String>" />
+
+    <Button
+        android:id="@+id/btn_addJavaBean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加List&lt;JavaBean>" />
+
+    <Button
+        android:id="@+id/btn_getJavaBean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取List&lt;JavaBean>" />
+
+    <Button
+        android:id="@+id/btn_addMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加:List&lt;Map&lt;String,Object>>" />
+
+    <Button
+        android:id="@+id/btn_getMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取:List&lt;Map&lt;String,Object>>" />
+
+    <Button
+        android:id="@+id/btn_addObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加:Object" />
+
+    <Button
+        android:id="@+id/btn_getObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取:Object" />
+</LinearLayout>
