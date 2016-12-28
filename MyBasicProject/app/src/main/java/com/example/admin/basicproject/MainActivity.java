@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.example.admin.basicproject.cache.ImageCacheActivity;
 import com.example.admin.basicproject.data_save.DataStorageActivity;
 import com.example.admin.basicproject.data_save.activity.SharedPreferencesActivity;
+import com.example.admin.basicproject.single_text.SingleTextActivity;
 import com.example.admin.basicproject.special_effect.SpecialEffectActivity;
 import com.example.admin.basicproject.ui.UIListManagerActivity;
 
@@ -21,8 +22,8 @@ import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 
-    int[] mainImageIds = {R.drawable.icon_0,R.drawable.icon_1,R.drawable.icon_2,R.drawable.icon_3,R.drawable.icon_3};
-    String[] mainStrs = {"UI","Jar","MVP","特效","存储"};
+    int[] mainImageIds = {R.drawable.icon_0,R.drawable.icon_1,R.drawable.icon_2,R.drawable.icon_3,R.drawable.icon_3,R.drawable.icon_0};
+    String[] mainStrs = {"UI","Jar","MVP","特效","存储","单元测试"};
     private Context mContext;
 
     @Override
@@ -71,7 +72,10 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent3 = new Intent(MainActivity.this,  DataStorageActivity.class);
                         startActivity(intent3);
                         break;
-
+                    case 5:
+                        Intent intent4 = new Intent(MainActivity.this,  SingleTextActivity.class);
+                        startActivity(intent4);
+                        break;
                 }
             }
         });

@@ -1,0 +1,9 @@
+{
+   "name":"jf",
+    "age":25,
+    "address":{
+    "street":"xihu",
+    "city":"hangzhou",
+    "country":"china"
+    }
+}

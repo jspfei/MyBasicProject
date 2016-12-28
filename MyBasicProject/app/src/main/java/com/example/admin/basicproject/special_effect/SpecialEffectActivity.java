@@ -4,13 +4,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.example.admin.basicproject.R;
 import com.example.admin.basicproject.special_effect.activity.GridDragActivity;
-import com.example.admin.basicproject.ui.activity.AnimationActivity;
 import com.example.admin.basicproject.ui.adapter.UiListAdapter;
-
 import java.util.Arrays;
 import java.util.List;
 
