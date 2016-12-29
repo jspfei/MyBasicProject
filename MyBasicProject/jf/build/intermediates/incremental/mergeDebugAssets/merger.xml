@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\work\mybasicproject\MyBasicProject\jf\src\main\assets"/><source path="E:\work\mybasicproject\MyBasicProject\jf\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\work\mybasicproject\MyBasicProject\jf\src\debug\assets"/></dataSet></merger>
