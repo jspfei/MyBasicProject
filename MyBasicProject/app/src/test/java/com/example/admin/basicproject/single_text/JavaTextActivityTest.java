@@ -32,7 +32,6 @@ public class JavaTextActivityTest {
         String user = "煲约二";
         String result = javaTextActivity.sayHello(date,user);
         assertEquals(result,"Hi,煲约二.Good morning!");
-
     }
 
 }

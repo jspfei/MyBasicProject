@@ -41,7 +41,4 @@ public class SingleTextActivityTest {
         String expectedText = "Hello, " + STRING_TO_BE_TYPED + "!";
         onView(withId(R.id.tv)).check(matches(withText(expectedText))); //line 3
     }
-
-
-
 }

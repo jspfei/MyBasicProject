@@ -11,7 +11,6 @@ public class JavaTextActivity {
     public void JavaTextActivity(){
 
     }
-
     public String sayHello(int now , String user){
         date = now;
         String tall = "Hi,"+user+"."+getGreeting();
