@@ -3,7 +3,10 @@ package com.example.admin.basicproject.data_save.activity;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.admin.basicproject.R;
@@ -96,4 +99,6 @@ public class SharedPreferencesActivity extends AppCompatActivity implements View
 
         }
     }
+
+
 }
