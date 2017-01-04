@@ -1,0 +1,33 @@
+#Internal package file, do not edit.
+#Wed Jan 04 11:41:17 CST 2017
+2.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_error.png
+5.set=ANDROID_RESOURCE
+3.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_empty.png
+2.set=ANDROID_RESOURCE
+4.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
+7.set=ANDROID_RESOURCE
+count=10
+0.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+5.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_stub.png
+4.set=ANDROID_RESOURCE
+6.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_point_pre.png
+9.set=ANDROID_RESOURCE
+9.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon_point.png
+1.set=ANDROID_RESOURCE
+7.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+6.set=ANDROID_RESOURCE
+0.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_ad_cycle.xml
+3.set=ANDROID_RESOURCE
+1.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+9.base=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\view_banner_content.xml
+8.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE

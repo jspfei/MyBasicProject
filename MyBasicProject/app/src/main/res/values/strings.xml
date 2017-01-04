@@ -32,4 +32,5 @@
     <string name="title_activity_data_save">数据存储</string>
     <string name="shared_preference_list">SharedPreference保存数据</string>
     <string name="single_test">单元测试</string>
+    <string name="custom_view">自定义View</string>
 </resources>

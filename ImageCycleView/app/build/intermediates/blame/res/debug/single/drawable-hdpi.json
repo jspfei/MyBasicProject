@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_point.png",
+        "source": "E:\\work\\mybasicproject\\ImageCycleView\\app\\src\\main\\res\\drawable-hdpi\\icon_point.png"
+    },
+    {
+        "merged": "E:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_empty.png",
+        "source": "E:\\work\\mybasicproject\\ImageCycleView\\app\\src\\main\\res\\drawable-hdpi\\icon_empty.png"
+    },
+    {
+        "merged": "E:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_point_pre.png",
+        "source": "E:\\work\\mybasicproject\\ImageCycleView\\app\\src\\main\\res\\drawable-hdpi\\icon_point_pre.png"
+    },
+    {
+        "merged": "E:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_stub.png",
+        "source": "E:\\work\\mybasicproject\\ImageCycleView\\app\\src\\main\\res\\drawable-hdpi\\icon_stub.png"
+    },
+    {
+        "merged": "E:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_error.png",
+        "source": "E:\\work\\mybasicproject\\ImageCycleView\\app\\src\\main\\res\\drawable-hdpi\\icon_error.png"
+    },
+    {
+        "merged": "E:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\work\\mybasicproject\\ImageCycleView\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

@@ -11,6 +11,7 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import com.example.admin.basicproject.cache.ImageCacheActivity;
+import com.example.admin.basicproject.custom.CustomViewActivity;
 import com.example.admin.basicproject.data_save.DataStorageActivity;
 import com.example.admin.basicproject.data_save.activity.SharedPreferencesActivity;
 import com.example.admin.basicproject.single_text.SingleTextActivity;
@@ -22,8 +23,8 @@ import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 
-    int[] mainImageIds = {R.drawable.icon_0,R.drawable.icon_1,R.drawable.icon_2,R.drawable.icon_3,R.drawable.icon_3,R.drawable.icon_0};
-    String[] mainStrs = {"UI","Jar","MVP","特效","存储","单元测试"};
+    int[] mainImageIds = {R.drawable.icon_0,R.drawable.icon_1,R.drawable.icon_2,R.drawable.icon_3,R.drawable.icon_3,R.drawable.icon_0,R.drawable.icon_3};
+    String[] mainStrs = {"UI","Jar","MVP","特效","存储","单元测试","自定义View"};
     private Context mContext;
 
     @Override
@@ -75,6 +76,11 @@ public class MainActivity extends AppCompatActivity {
                     case 5:
                         Intent intent4 = new Intent(MainActivity.this,  SingleTextActivity.class);
                         startActivity(intent4);
+                        break;
+
+                    case 6:
+                        Intent intent5 = new Intent(MainActivity.this,  CustomViewActivity.class);
+                        startActivity(intent5);
                         break;
                 }
             }

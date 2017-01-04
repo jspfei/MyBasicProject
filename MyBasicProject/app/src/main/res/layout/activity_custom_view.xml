@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <Button android:id="@+id/id_self_pain_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自绘控件"
+        android:onClick="showSelfPainView"
+        />
+    <Button
+        android:id="@+id/id_combination_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="组合控件"
+        android:onClick="showCombinationView"
+        />
+    <Button
+        android:id="@+id/id_extends_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继承控件"
+        android:onClick="showExtendsView"
+        />
+</LinearLayout>

@@ -19,13 +19,11 @@
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".MainActivity">
 
-            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            -->
         </activity>
         <activity android:name=".cache.ImageCacheActivity" />
         <activity
@@ -50,13 +48,16 @@
             android:name=".single_text.SingleTextActivity"
             android:label="@string/single_test" />
         <activity android:name=".cache.PhoneInfoActivity">
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
         <activity android:name=".special_effect.activity.CodeActivity"></activity>
+        <activity android:name=".custom.CustomViewActivity"  android:label="@string/custom_view"/>
+        <activity android:name=".custom.activity.CounterViewActivity"/>
+        <activity android:name=".custom.activity.MyListViewActivity"/>
     </application>
 
 </manifest>

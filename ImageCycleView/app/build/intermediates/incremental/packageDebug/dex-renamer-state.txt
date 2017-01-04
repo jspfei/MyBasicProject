@@ -1,0 +1,7 @@
+#Wed Jan 04 11:41:28 CST 2017
+base.0=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b816cbebbaef95a6a9ce8f5e45f958bac1f765eb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6c1ad13a70c8f19bd3e37d5989894825a7042321\\classes.dex
+base.1=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6c1ad13a70c8f19bd3e37d5989894825a7042321
+file.0=E\:\\work\\mybasicproject\\ImageCycleView\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b816cbebbaef95a6a9ce8f5e45f958bac1f765eb\\classes.dex
