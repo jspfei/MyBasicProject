@@ -10,4 +10,11 @@
         android:layout_height="@dimen/dp_50"
         android:text="@string/shared_preference_list"
         />
+
+    <Button
+        android:id="@+id/btn_lite_pal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:text="@string/lite_pal_data"
+        />
 </LinearLayout>

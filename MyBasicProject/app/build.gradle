@@ -34,4 +34,5 @@ dependencies {
     compile 'com.android.support.test:runner:0.5'
     compile project(':jf')
     compile project(':phoninfo')
+    compile files('libs/litepal-1.4.1-src.jar')
 }

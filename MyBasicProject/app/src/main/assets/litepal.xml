@@ -1,0 +1,12 @@
+<litepal>
+    <dbname value="demo" ></dbname>
+
+    <version value="4" ></version>
+
+    <list>
+        <mapping class = "com.example.admin.basicproject.litepal.model.News"></mapping>
+        <mapping class = "com.example.admin.basicproject.litepal.model.Comment"></mapping>
+        <mapping class="com.example.admin.basicproject.litepal.model.Category"></mapping>
+        <mapping class="com.example.admin.basicproject.litepal.model.Intrduction"></mapping>
+    </list>
+</litepal>
