@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">900句英语</string>
+    <string name="assets_txt">读取assets 下文件</string>
+    <string name="raw">读取Raw文件夹中的数据</string>
+    <string name="start_mp3">开始</string>
+    <string name="stop_mp3">停止</string>
+    <string name="next">下一页</string>
+    <string name="previous_page">上一页</string>
+</resources>

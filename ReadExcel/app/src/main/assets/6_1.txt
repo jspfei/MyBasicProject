@@ -1,0 +1,101 @@
+一、 Countries And Nationalities 国家和国籍
+751. Where are you from? 你来自哪儿？
+752. What's your nationality? 你是什么国籍？
+753. What's your motherland? 你祖国是哪儿？
+754. Are you a native Chinese? 你是土生土长的中国人吗？
+755. What's the population of China? 中国有多少人口？
+756. How many provinces do you have? 你们有多少个区？ 
+757. What's the capital of your country? 贵国首都是哪儿？
+758. I come from Japan. 我来自日本。
+759. I was born in China and brought up in the U.S.A. 我出生在中国，在美国长大。
+760. My country has an area of 500,000 square kilometers. 我国面积五十万平里。
+761. The capital of my country id Beijing. 我国首都是北京。
+762. We have 50 provinces. 我们有50个省。
+763. My country is rich in natural resources. 我国自然资源丰富。
+764. That nation is famous for its tourism. 那个国家以旅游业闻名。 
+765. The biggest festival in my country is the Spring Festival. 我国最大的节日是春节。
+
+二、 Geography And Land Features 地理和地貌
+766. Geographically, China is located in the Northern Hemisphere. 
+从地理位置上说，中国位于北半球。
+767. In this country, the weather is usually very awful. 在这个国家，天气通常十分恶劣。
+768. It is a very beautiful country with many mountains. 这是一个多山的美丽国度。
+769. This country is famous for its beautiful lakes. 这个国家以其美丽的湖泊而闻名于世。 
+770. The land in this region is rather dry and parched. 这片土地十分干燥。
+771. Along the northern coast of this continent, there are many crags. 
+沿该大陆的北海岸线上有许多峭壁。
+772. In Brazil, many ancient forests are very well preserves. 
+在巴西，古老的森林保存十分完好。
+773. Lumbering is very important in some underdeveloped countries. 
+在一些不发达的国家，伐木业十分重要。
+774. The scenery is very beautiful in the small islands in the Pacific Oceans. 
+太平洋上一些小岛的景色十分优美。
+775. What kind of climate do you have in this country? 这个国家的气候如何？
+776. In the west of America, there are many high peeks and deep canyons. 
+在美国西部有许多高峰和深谷。
+777. Which one is the longest river in China? 中国哪条河流最长？
+778. Do you get much rain in summer? 这里夏天雨水多吗？
+779. Is the plain along the river good for farming? 河畔的平原易于发展农业吗？
+780. It's cold and foggy in London at this time of the year. 
+在每年的这个时候，伦敦寒冷而多雾。
+`
+三、 School And Education 学校和教育
+781. Every one must receive 9 years of compulsory education. 
+每人必须接受九年的义务教育。
+782. Children enter primary school at the age of 7. 孩子们7岁进小学。
+783. Some students quit school due to poverty. 一些学生因贫困而辍学。
+784. There is fierce competition in the college Entrance Examination. 高考竞争激烈。
+785. He majored in Computers. 他主修计算机。
+786. She is working for her double major in English and Economics. 
+她正在修英语和经济双学位。
+787. I graduated from Yale University 5 years ago. 五年前，我从耶鲁大学毕业。
+788. It is desirable to apply to good schools. 申请好学校是令人向往的。
+789. Mary is in her freshman year. 玛丽大学一年级。
+790. Lily is a Sophomore now. 莉莉现在大学二年级。
+791. Mike is already a junior. 迈克已经大学三年级了。
+792. As a senior, Peter is writing his thesis. 作为大学四年级学生，彼得正在写毕业论文。
+793. Mr. Green is a member of the faculty. 格林先生是大学教员。
+794. In Britain, there are open universities. 在英国，有成人大学。
+795. There are many training classed and night classes. 有许多培训班与夜校。
+
+四、 About Jobs 关于工作
+796. What does your father do? 你父亲做什么工作？
+797. He is a doctor. He has his own practice. 他是个医生，他自己开业。
+798. Do you have any plan for your career? 你对未来有什么计划吗？
+799. I want to be a pilot of possible. 如果可能的话，我想做个飞行员。
+800. I hope that I can get a decent job with a good salary. 
+我希望有一份既体面，收入又高的工作。
+801. I have an interview next week. 我下周要参加考试。
+802. Tom has opened his own business while his classmates are still slogging away at school. 
+当汤姆的同学还在学校苦读时，他已经开始了自己的事业。
+803. I like writing, but I wouldn't take it as my career. 我喜欢协作但不愿以此为职业。
+804. I worked as an intern in that firm last summer. 去年夏天我在那家商行实习。
+805. He's a very efficient young man though a little proud. 
+他是个很有能力的人，但是有点骄傲。
+806. He made a successful career in business. 他的商务生涯十分成功。
+807. My cousin has just been promoted to the rank of major. 我表兄刚被提升为上校。
+808. He is a manager of a famous corporation. 他是一家著名公司的经理。
+809. The statesman retired as the mayor of New York. 那位政治家退休时是纽约市市长。
+810. He was appointed president of the committee recently. 
+他最近被任命为那个革命会的总裁。
+
+五、 Farms And Factories 农场和工厂
+811. This area is noted for its rich soil. 这个地区以土壤肥沃著称。
+812. The place is too stony for farming. 这地方太多石块，不适合耕种。
+813. In the flat country, people grow wheat and raise cattle. 
+在这平坦的乡间，人们种指小麦，饲养牲畜。
+814. He has bought 10 tractors for the village. 他为村里买了10台拖拉机。
+815. What's the typical farm product in this region? 这个地区典型的农产品是什么？
+816. At this time of the year farmers begin to plow their fields. 
+每年这个时候，农民们开始犁地。
+817. Have you milked the cows? 你已经挤过奶了吗？
+818. Pile the hay in the corner. 把干草堆到边上。
+819. What's the average yearly output of cars in your factory? 
+你们厂平均年产汽车多少台？
+820. The meat packing industry is developing fast. 肉类加工业发展迅速。
+821. Car manufacturers are having a bad time. 汽车制造商的日子不好过。
+822. State-owned enterprises are getting out of difficulty. 国有企业开始走上坡路。
+823. How many workshops are there in your factory? 你们厂有多少车间？
+824. The computer industry is booming. 计算机业繁荣起来。
+825. The information industry helps boost the global economy. 
+信息业推进全球经济发展。
