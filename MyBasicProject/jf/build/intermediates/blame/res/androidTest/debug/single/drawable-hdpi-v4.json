@@ -2,5 +2,9 @@
     {
         "merged": "E:\\work\\mybasicproject\\MyBasicProject\\jf\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\drop_down_list_arrow.png",
         "source": "E:\\work\\mybasicproject\\MyBasicProject\\jf\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\drop_down_list_arrow.png"
+    },
+    {
+        "merged": "D:\\work\\MyBasicProject\\MyBasicProject\\jf\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\drop_down_list_arrow.png",
+        "source": "D:\\work\\MyBasicProject\\MyBasicProject\\jf\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\drop_down_list_arrow.png"
     }
 ]
