@@ -63,12 +63,6 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
         read();
         playMp3();
     }
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        player.stop();
-        this.finish();
-    }
     private void destory(){
         player.stop();
         player = null;

@@ -6,4 +6,8 @@
     <color name="colorAccent_0">#00FF4081</color>
     <color name="white">#FFFFFF</color>
     <color name="blue">#00BFFF</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="LavenderBlush">#FFF0F5</color>
+    <color name="PaleVioletRed">#DB7093</color>
+    <color name="Cyan">#00FFFF</color>
 </resources>

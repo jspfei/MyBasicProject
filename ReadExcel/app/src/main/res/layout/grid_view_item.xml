@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="@dimen/dp_50">
+
+    android:layout_height="@dimen/dp_70">
 
     <TextView
         android:id="@+id/tv_show"
-        android:background="@drawable/show_button"
         android:text="111"
+        android:background="@drawable/gv_selector"
         android:textSize="@dimen/sp_20"
+        android:padding="@dimen/dp_5"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
