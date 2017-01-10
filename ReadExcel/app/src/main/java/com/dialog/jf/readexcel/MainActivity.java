@@ -73,17 +73,11 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
 
         currentBook = bookArrayList.get(playIndex);
 
-        initData();
+        initSetTitleData();
         read();
         playMp3();
     }
-    private void isPlayPart(){
-        if(playIndex==0){
-            isShowNext = true;
-        }else{
-            isShowNext = false;
-        }
-    }
+
     //播放进度条
 
     class ProcessBarListener implements SeekBar.OnSeekBarChangeListener {
@@ -94,11 +88,9 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
             // TODO Auto-generated method stub
             if (fromUser==true) {
                 player.seekTo(progress);
-                //nowPlayTime.setText(ShowTime(progress));
+                id_process_bar.setProgress(progress);
             }
-
         }
-
         @Override
         public void onStartTrackingTouch(SeekBar seekBar) {
             // TODO Auto-generated method stub
@@ -108,9 +100,7 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
         @Override
         public void onStopTrackingTouch(SeekBar seekBar) {
             // TODO Auto-generated method stub
-
         }
-
     }
     private void destory(){
         player.stop();
@@ -132,23 +122,22 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
             player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                 @Override
                 public void onCompletion(MediaPlayer mp) {
-                    mp.stop();
                     startBtn.setText(context.getResources().getString(R.string.start_str));
+                    handler.removeCallbacks(r);
                     id_process_bar.setProgress(0);
-                    m2Click = !m2Click;
-                    isPlayComplete = true;
+                    m2Click = true;
                 }
             });
             player.prepare();
             id_process_bar.setProgress(0);
             int mMax=player.getDuration();
             id_process_bar.setMax(mMax);
-           // StrartbarUpdate();
+
         } catch(IOException e){
             e.printStackTrace();
         }
     }
-    private void initData(){
+    private void initSetTitleData(){
         titleText.setText(currentBook.getTitle());
     }
 
@@ -163,26 +152,25 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
                 startMp3();
                 break;
             case R.id.next:
-                showCurrentBook();
+                showNextBook();
                 break;
         }
     }
     private void startMp3(){
-
         if(m2Click){
             player.start();
             startBtn.setText(context.getResources().getString(R.string.pause_str));
+           StrartbarUpdate();
         }
         else{
             player.pause();
             startBtn.setText(context.getResources().getString(R.string.start_str));
-        }
-        if(isPlayComplete){
-            player.reset();
+
         }
         m2Click = !m2Click;
     }
-    private void showCurrentBook(){
+    private void showNextBook(){
+
         isShowNext = !isShowNext;
         if(isShowNext){
             currentBook = bookArrayList.get(1);
@@ -194,17 +182,16 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
 
         }
 
-        initData();
+        initSetTitleData();
         read();
         playNextMp3();
         playMp3();
 
     }
     private void playNextMp3() {
-        handler.removeCallbacks(r);
-        player.stop();
+        player.pause();
         startBtn.setText(context.getResources().getString(R.string.start_str));
-        m2Click = !m2Click;
+        m2Click = true;
     }
 
     Handler handler=new Handler();
