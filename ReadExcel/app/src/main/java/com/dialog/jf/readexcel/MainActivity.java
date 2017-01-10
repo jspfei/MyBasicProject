@@ -1,6 +1,7 @@
 package com.dialog.jf.readexcel;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
 import android.media.AudioManager;
@@ -35,12 +36,13 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
     private Boolean isShowNext = false;
     private Button leftButton;
     private TextView titleText;
+    private Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         bookArrayList =  (ArrayList<Book>) getIntent().getSerializableExtra("books");
-
+        context = this;
         setContentView(R.layout.activity_main);
         mainPresenter = new MainPresenterImpl(this,this);
         titleText = (TextView) findViewById(R.id.title_text);
@@ -86,6 +88,7 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
                 public void onCompletion(MediaPlayer mp) {
                     mp.stop();
                     mp.release();
+                    startBtn.setText(context.getResources().getString(R.string.start_str));
                 }
             });
             player.prepare();
@@ -115,11 +118,11 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
     private void startMp3(){
         if(m2Click){
             player.start();
-            startBtn.setText("暂停");
+            startBtn.setText(context.getResources().getString(R.string.pause_str));
         }
         else{
             player.pause();
-            startBtn.setText("开始");
+            startBtn.setText(context.getResources().getString(R.string.start_str));
         }
         m2Click = !m2Click;
     }

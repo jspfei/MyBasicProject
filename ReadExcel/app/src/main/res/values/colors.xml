@@ -10,4 +10,5 @@
     <color name="LavenderBlush">#FFF0F5</color>
     <color name="PaleVioletRed">#DB7093</color>
     <color name="Cyan">#00FFFF</color>
+    <color name="light_green">#F0F8FF</color>
 </resources>

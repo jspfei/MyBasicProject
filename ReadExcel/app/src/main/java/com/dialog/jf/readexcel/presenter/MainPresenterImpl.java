@@ -53,7 +53,7 @@ public class MainPresenterImpl  implements MainPresenter{
                 BufferedReader reader = new BufferedReader(isReadr);
                 String out = "";
                 while((out=reader.readLine())!=null){
-                    Log.d("读取到的文件信息:",out);
+                   // Log.d("读取到的文件信息:",out);
                     txt = txt +out+"\n";
                 }
             }catch (IOException e){
