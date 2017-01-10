@@ -55,6 +55,7 @@ public class DisplayActivity extends Activity {
         ArrayList<Book> listObj = getData(i);
         Intent intent = new Intent(DisplayActivity.this,MainActivity.class);
         intent.putExtra("books", (Serializable) listObj);
+        intent.putExtra("index", "0");
         startActivity(intent);
     }
     private ArrayList<Book> getData(int i){
@@ -66,7 +67,7 @@ public class DisplayActivity extends Activity {
     private Book getOnePartBook(int i){ //生成单数文件名称 1_1.txt ;2_1.txt
         Book book = new Book();
         String left = Integer.toString(i+1);
-        book.setTitle(titleLists.get(i));
+        book.setTitle(titleLists.get(i)+"  第一部分");
         book.setTxt(left+"_1.txt");
         book.setMp3("m"+left+"_1.mp3");
         //mp3
@@ -75,7 +76,7 @@ public class DisplayActivity extends Activity {
     private Book getTwoPartBook(int i){ //生成双数文件名称 1_2.txt ;2_2.txt
         Book book = new Book();
         String left = Integer.toString(i+1);
-        book.setTitle(titleLists.get(i));
+        book.setTitle(titleLists.get(i)+"  第二部分");
         book.setTxt(left+"_2.txt");
         book.setMp3("m"+left+"_2.mp3");
         //mp3
