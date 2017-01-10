@@ -58,25 +58,35 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
         nextBtn = (Button) findViewById(R.id.next);
         nextBtn.setOnClickListener(this);
         currentBook = bookArrayList.get(0);
+
         initData();
         read();
-
-        //initPlay();
+        playMp3();
     }
-
-    private void destory(){
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        player.stop();
         this.finish();
     }
-
-    private void initPlay() {
+    private void destory(){
+        player.stop();
+        player = null;
+        this.finish();
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        destory();
+    }
+    private void playMp3() {
+        player = null;
         AssetManager am = getAssets();
         try {
-            AssetFileDescriptor afd = am.openFd("a.mp3");
+            AssetFileDescriptor afd = am.openFd(currentBook.getMp3());
             player = new MediaPlayer();
-            player.setDataSource(afd.getFileDescriptor());
-            player.setAudioStreamType(AudioManager.STREAM_RING);
-           /* FileInputStream fis = new FileInputStream(new File("a.mp3"));
-            player.setDataSource(fis.getFD());*/
+            player.setDataSource(afd.getFileDescriptor(),afd.getStartOffset(),
+                    afd.getStartOffset());
             player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                 @Override
                 public void onCompletion(MediaPlayer mp) {
@@ -84,10 +94,6 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
                     mp.release();
                 }
             });
-            player.setLooping(false);
-            player.prepare();
-            player.setVolume(1f, 1f);
-
             player.prepare();
         } catch(IOException e){
             e.printStackTrace();
@@ -105,22 +111,26 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.startMp3:
-               /* if(m2Click){
-                    player.start();
-                    startBtn.setText("暂停");
-                }
-                else{
-                    player.pause();
-                    startBtn.setText("开始");
-                }
-                m2Click = !m2Click;*/
+                startMp3();
                 break;
             case R.id.next:
-                showNext();
+                showCurrentBook();
                 break;
         }
     }
-    private void showNext(){
+    private void startMp3(){
+        if(m2Click){
+            player.start();
+            startBtn.setText("暂停");
+        }
+        else{
+            player.pause();
+            startBtn.setText("开始");
+        }
+        m2Click = !m2Click;
+    }
+    private void showCurrentBook(){
+
         isShowNext = !isShowNext;
         if(isShowNext){
             currentBook = bookArrayList.get(1);
@@ -131,6 +141,15 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
         }
         initData();
         read();
+
+        playNextMp3();
+        playMp3();
+
+    }
+    private void playNextMp3() {
+        player.stop();
+        startBtn.setText("开始");
+        m2Click = !m2Click;
     }
 
     @Override

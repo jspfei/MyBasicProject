@@ -68,6 +68,7 @@ public class DisplayActivity extends Activity {
         String left = Integer.toString(i+1);
         book.setTitle(titleLists.get(i));
         book.setTxt(left+"_1.txt");
+        book.setMp3("m"+left+"_1.mp3");
         //mp3
         return book;
     }
@@ -76,6 +77,7 @@ public class DisplayActivity extends Activity {
         String left = Integer.toString(i+1);
         book.setTitle(titleLists.get(i));
         book.setTxt(left+"_2.txt");
+        book.setMp3("m"+left+"_2.mp3");
         //mp3
         return book;
     }
