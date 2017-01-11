@@ -125,11 +125,7 @@ public class MainActivity extends Activity implements View.OnClickListener ,Main
                     startBtn.setText(context.getResources().getString(R.string.start_str));
                     handler.removeCallbacks(r);
                     id_process_bar.setProgress(0);
-
                     m2Click = true;
-
-                    m2Click = !m2Click;
- 
                 }
             });
             player.prepare();
